@@ -1,0 +1,96 @@
+=>Comments
+
+Single Line Comment
+# comment here
+-- comment here
+/* comment */
+
+
+Multi Line Comment
+/*
+comment here
+comment here
+*/
+
+----------------------------------------------------
+
+=>Arithmethic Operators(5 types)
+
+Operators													Meaning												Operate On
++ ( Add )													Addition											Numeric value
+- ( Subtract )												Subtraction											Numeric value
+* ( Multiply )												Multipliation										Numeric value
+/ ( Divide )												Division											Numeric value
+% ( Modulus )												Returns remainder of a division						Numeric value
+
+----------------------------------------------------
+
+Exercise Addition Operator = Syntax
+
+SELECT 10 + 2;     				=> 12
+SELECT '10' + 2;   				=> 12
+SELECT '10' + '2';  			=> 12
+SELECT 10+20 , 20 + 30;  		=> 30  50
+SELECT 100 + 'Aung Aung' 		=> 100
+SELECT '100' + 'Aung Aung' 		=> 100
+
+
+
+Exercise Addition Operator = Syntax
+
+SELECT 10-2;						=> 8;
+SELECT 10 - 2;						=> 8
+SELECT 10-2,20;						=> 8  20;
+SELECT '1000' - '500', 500-600;  	=> 500  -100
+
+
+
+Exercise Multipliation Operator = Syntax
+
+SELECT 10*2;						=> 20
+SELECT 5*3 , 15 * 5;				=> 15  75
+SELECT '20'*3 , '100'*'5';	        => 60  500
+
+
+
+Exercise Division Operator = Syntax
+
+SELECT 10 / 2;										=> 5.0000
+SELECT 2/3, 3/5;									=> 0.6667  0.6000
+SELECT '100'/25 , '500' / '5' , 12/0;				=> 4  100  NULL
+SELECT 25 DIV 5;									=> 5
+SELECT 5 DIV 2 , -40 DIV 2 , -100 DIV -20;			=> 2  -20  5
+SELECT 220 DIV 3, 400 DIV 3;						=> 73  133
+
+
+
+Exercise MOLDULUS Operator = Syntax
+
+SELECT 10 % 3;										=> 1
+SELECT 20%3 , 30 % 5;								=> 2  0
+SELECT '20' % 5, '500'%'300';       				=> 0  200
+SELECT 10 MOD 3;									=> 1
+SELECT 5 MOD 2 , -40 MOD 2 , -100 MOD -20;			=> 1  0  0
+SELECT 220 MOD 3, 400 MOD 3;						=> 1  1			
+SELECT 10 MOD 3 , MOD(10,3);						=> 1  1	
+
+----------------------------------------------------
+
+CRUD
+Create  /  Read  /  Update  /  Delete
+
+CREATE  -  create a new databse
+CREATE TABLE  -  create a new table
+
+ALTER DATABASE  -  modifies a databse (pyin sin)
+ALTER TABLE  -  modifies a table
+
+DROP DATABASE  -  delete a database
+DROP TABLE  -  delete a table
+
+INSERT INTO  -  insert new data into a database
+SELECT  -  extracts data from database
+UPDATE  -  update data from database
+DELETE  -  delete data from database
+
+	

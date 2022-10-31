@@ -1,0 +1,42 @@
+CRUD
+----
+create 
+read
+update
+delete
+admin
+analysis
+---------------------------------------------------------
+db2
+1.temp storage (client side - web browser)
+2.par storage (server side)
+
+
+
+Server Side (2 types)
+_____________________
+
+1.SQL Database  (table)
+=>MySQL *****
+PostgraSQL ****
+SQLite
+ORACLE *****
+MSSQL SERVER ***
+etc......
+---------------------------------------------------------
+
+2.NO-SQL Database  (object) => Better Security 
+=>mongodb
+redis
+aws....(amazon producion)
+etc......
+---------------------------------------------------------
+
+SQL = Structured Query Language
+
+RDBMS = Relational Database Management System
+
+
+
+
+<!-- Att Code = 13DB -->

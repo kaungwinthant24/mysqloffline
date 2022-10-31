@@ -1,0 +1,77 @@
+=> Insert Single Data
+
+Method(1) =Syntax
+
+INSERT INTO tablename (column1,column2,column3,...)  // this is optional
+VALUE (value1,value2,value3,...);
+
+Method(1) =Syntax
+
+INSERT INTO tablename								 // this is for all columns
+VALUES (value1,value2,value3,...);
+
+-----------------------------
+=Exercises
+
+CREATE TABLE persons(
+	personid INT,
+	firstname VARCHAR(20),
+	lastname VARCAHR(20),
+	city VARCHAR(15),
+	address VARCHAR(200)
+);
+
+DESC persons;
+
+INSERT INTO persons (personid,firstname,lastname,city,address)
+VALUE (1,'kaung win','thant','yangon','no.349,yarzar st');
+
+INSERT INTO persons (personid,firstname,lastname,city)
+VALUES (2,'kaung win','thant','yangon');
+
+INSERT INTO persons VALUES (3,'kaung','win thant','mandalay','no.69,7 Block');
+INSERT INTO persons VALUES (4,'aung','kyaw','no.69,7 Block'); => error 1 row left
+INSERT INTO persons VALUES (4,'aung','kyaw','no.69,7 Block','yangon'); 
+INSERT INTO persons VALUES (5,'aung','kyaw','yarzar','yangon'); 
+INSERT INTO persons VALUES (5,'aung','kyaw',NULL,'yangon'); 
+
+----------------------------------------------------------------------
+=> Insert Multi Data
+
+Method(1) =Syntax
+ 
+INSERT INTO tablename (column1,column2,column3,...)  // this is optional
+VALUES (value1,value2,value3,...),
+	   (value1,value2,value3,...),
+	   (value1,value2,value3,...),
+	   (value1,value2,value3,...);
+
+Method(1) =Syntax
+
+INSERT INTO tablename								 // this is for all columns
+VALUES (value1,value2,value3,...),
+	   (value1,value2,value3,...),
+	   (value1,value2,value3,...),
+	   (value1,value2,value3,...);
+
+-----------------------------
+
+=Exercise
+
+INSERT INTO persons(personid,firstname,lastname,city,address)
+VALUES (7,'nu','nu','mandalay','no.19,myittar st'),
+	   (8,'mya','may','mandalay','no.29,myittar st'),
+	   (9,'lu lu','aung','yangon','no.30,myittar st');
+
+INSERT INTO persons(personid,firstname,lastname,city,address)
+VALUES (10,'yu','yu','mandalay','no.31,myittar st'),
+	   (11,'kyaw','kyaw','mandalay','no.32,myittar st'),
+	   (12,'hnin','hnin','yangon','no.33,myittar st');
+
+INSERT INTO persons
+VALUES (13,'pa','pa','mawlamyine','no.19,myittar st'),
+	   (12,'hla','hla','mawlamyine','no.19,myittar st'),
+	   (15,'ma','ma','bago','no.34,myittar st');
+
+
+----------------------------------------------------------------------

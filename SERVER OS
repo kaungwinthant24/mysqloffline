@@ -1,0 +1,53 @@
+SERVER OS
+---------
+
+1.regular user
+
+2.Sever os
+	(1)Ms Windows Server  (window 10 and windows server 2012 are stable now)
+		(i) Graphic user interface
+		(ii) Core (Terminal mhr code yite tr)
+
+	(2)Linus Server (ubuntu server for web server)
+		(i) Graphic user interface
+		(ii) Core (Terminal mhr code yite tr)
+
+
+		Xampp
+		wamp
+
+
+		_____________
+
+
+		localhost:80  = Domain Name | 80 is port number
+		127.0.0.1 = Ip Address of Apache
+		-
+		Why we need Apache?
+		Database nae Apache Website ka twel htr tr
+		Database ko manage lod phoe Apache ko use ml As normal user
+
+		----------
+
+		Weere from buy server
+
+
+
+		-basic-
+		z.com (recommand) Myanmar Language
+		godaddy.com English Language
+
+		--------
+		
+		Sharing Server/Hosting			Private-DID Server/Hosting
+
+		_______
+
+		phpMyAdmin
+		
+		database name and
+		font (utf8_unicode_ci)
+
+
+
+

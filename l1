@@ -1,0 +1,15 @@
+phpMyAdmin
+
+
+Create Database
+---------------
+database name and
+font (utf8_unicode_ci and utf8_general_ci)   => Mynamar Font
+
+Create NewTable
+---------------
+DataLandPolicy => database name and table name ko lowercase and a myr kein pl pay ml
+
+only number = INT
+text and number = VARCHAR
+many text = TEXT

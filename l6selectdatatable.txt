@@ -1,0 +1,13 @@
+=>Select Data
+
+Method 1 => Syntax
+SELECT * FROM tablename;
+
+Method 2 => Syntax
+SELECT columnname FROM tablename; |  SELECT column1,column2,... FROM tablename;
+
+
+
+SELECT * FROM persons;
+SELECT firstname,city FROM persons;  (only firstname and city pl kya lr ml)
+SELECT city,firstname,lastname FROM persons;   (it's just ul not change table strcuture)
